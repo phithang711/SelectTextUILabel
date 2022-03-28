@@ -16,6 +16,7 @@
 		45D763A327EF618900DB4F2C /* SelectTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D763A227EF618900DB4F2C /* SelectTextTests.swift */; };
 		45D763AD27EF618900DB4F2C /* SelectTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D763AC27EF618900DB4F2C /* SelectTextUITests.swift */; };
 		45D763AF27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D763AE27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift */; };
+		45F675B527F201AD00C8F630 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F675B427F201AD00C8F630 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		45D763A827EF618900DB4F2C /* SelectTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D763AC27EF618900DB4F2C /* SelectTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextUITests.swift; sourceTree = "<group>"; };
 		45D763AE27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45F675B427F201AD00C8F630 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		45D7638A27EF618700DB4F2C /* SelectText */ = {
 			isa = PBXGroup;
 			children = (
+				45F675B227F201AD00C8F630 /* Utils */,
 				45D7638B27EF618700DB4F2C /* AppDelegate.swift */,
 				45D7638D27EF618700DB4F2C /* SceneDelegate.swift */,
 				45D7638F27EF618700DB4F2C /* ViewController.swift */,
@@ -125,6 +128,22 @@
 				45D763AE27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift */,
 			);
 			path = SelectTextUITests;
+			sourceTree = "<group>";
+		};
+		45F675B227F201AD00C8F630 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				45F675B327F201AD00C8F630 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		45F675B327F201AD00C8F630 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				45F675B427F201AD00C8F630 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				45D7639027EF618700DB4F2C /* ViewController.swift in Sources */,
 				45D7638C27EF618700DB4F2C /* AppDelegate.swift in Sources */,
 				45D7638E27EF618700DB4F2C /* SceneDelegate.swift in Sources */,
+				45F675B527F201AD00C8F630 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
