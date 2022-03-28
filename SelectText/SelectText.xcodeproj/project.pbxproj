@@ -17,6 +17,7 @@
 		45D763AD27EF618900DB4F2C /* SelectTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D763AC27EF618900DB4F2C /* SelectTextUITests.swift */; };
 		45D763AF27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D763AE27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift */; };
 		45F675B527F201AD00C8F630 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F675B427F201AD00C8F630 /* Extension.swift */; };
+		45F675B827F2029B00C8F630 /* UILabelCanSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F675B727F2029B00C8F630 /* UILabelCanSelect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		45D763AC27EF618900DB4F2C /* SelectTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextUITests.swift; sourceTree = "<group>"; };
 		45D763AE27EF618900DB4F2C /* SelectTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45F675B427F201AD00C8F630 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		45F675B727F2029B00C8F630 /* UILabelCanSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelCanSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		45D7638A27EF618700DB4F2C /* SelectText */ = {
 			isa = PBXGroup;
 			children = (
+				45F675B627F2027E00C8F630 /* Class */,
 				45F675B227F201AD00C8F630 /* Utils */,
 				45D7638B27EF618700DB4F2C /* AppDelegate.swift */,
 				45D7638D27EF618700DB4F2C /* SceneDelegate.swift */,
@@ -144,6 +147,14 @@
 				45F675B427F201AD00C8F630 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		45F675B627F2027E00C8F630 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				45F675B727F2029B00C8F630 /* UILabelCanSelect.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			files = (
 				45D7639027EF618700DB4F2C /* ViewController.swift in Sources */,
 				45D7638C27EF618700DB4F2C /* AppDelegate.swift in Sources */,
+				45F675B827F2029B00C8F630 /* UILabelCanSelect.swift in Sources */,
 				45D7638E27EF618700DB4F2C /* SceneDelegate.swift in Sources */,
 				45F675B527F201AD00C8F630 /* Extension.swift in Sources */,
 			);
